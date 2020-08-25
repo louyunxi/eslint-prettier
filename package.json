@@ -14,8 +14,13 @@
     "build": "node build/build.js",
     "precommit": "lint-staged"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "*.{vue,js,json,css}": [
+    "*.{vue,js,jsx,json,css,scss}": [
       "prettier --write",
       "git add"
     ]
