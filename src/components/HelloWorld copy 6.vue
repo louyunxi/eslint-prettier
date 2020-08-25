@@ -8,8 +8,7 @@
 -->
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h1>{{ msg }}</h1><h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank"> Core Docs </a></li>
       <li>
@@ -46,8 +45,7 @@
       </li>
     </ul>
     <div>
-      <p><span>435345</span><span></span></p>
-      <span>345</span>
+      <p><span>435345</span><span></span></p><span>345</span>
       <span>345</span>
     </div>
   </div>
@@ -71,12 +69,10 @@ h2 {
   font-weight: normal;
 }
 ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: none;padding: 0;
 }
 li {
-  display: inline-block;
-  margin: 0 10px;
+  display: inline-block;margin: 0 10px;
 }
 a {
   color: #42b983;

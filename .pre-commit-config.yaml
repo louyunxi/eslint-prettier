@@ -1,6 +1,0 @@
--   repo: https://github.com/awebdeveloper/pre-commit-prettier
-    rev: ''  # Use the sha or tag you want to point at
-    hooks:
-    -   id: prettier
-        args: ['--single-quote','--no-bracket-spacing'] #list of args like , '--jsx-bracket-same-line', '--print-width 120', '--no-bracket-spacing'
-        additional_dependencies: ['prettier@1.1.0']
