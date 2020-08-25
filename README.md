@@ -1,30 +1,19 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-08-25 10:23:54
+ * @LastEditTime: 2020-08-25 10:50:39
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \Typescript-Knowledge-Summaryf:\linshi\eslintandprettier\README.md
+-->
 # eslintandprettier
 
-> A Vue.js project
+> test eslint and prettier with git
 
-## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# install
+cnpm install prettier eslint-plugin-prettier eslint-config-prettier -D
+cnpm install lint-staged husky -D
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
