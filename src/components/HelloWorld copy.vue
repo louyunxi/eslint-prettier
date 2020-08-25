@@ -1,17 +1,19 @@
 <!--
  * @Author: your name
- * @Date: 2020-08-25 10:23:54
- * @LastEditTime: 2020-08-25 11:22:57
+ * @Date: 2020-08-25 10:58:23
+ * @LastEditTime: 2020-08-25 11:22:41
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \Typescript-Knowledge-Summaryf:\linshi\eslintandprettier\src\components\HelloWorld.vue
+ * @FilePath: \Typescript-Knowledge-Summaryf:\linshi\eslintandprettier\src\components\HelloWorld copy.vue
 -->
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank"> Core Docs </a></li>
+      <li>
+        <a href="https://vuejs.org" target="_blank"> Core Docs </a>
+      </li>
       <li>
         <a href="https://forum.vuejs.org" target="_blank"> Forum </a>
       </li>
@@ -45,6 +47,11 @@
         </a>
       </li>
     </ul>
+    <div>
+      <p><span>435345</span><span></span></p>
+      <span>345</span>
+      <span>345</span>
+    </div>
   </div>
 </template>
 
@@ -66,7 +73,8 @@ h2 {
   font-weight: normal;
 }
 ul {
-  list-style-type: none;padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 li {
   display: inline-block;margin: 0 10px;
